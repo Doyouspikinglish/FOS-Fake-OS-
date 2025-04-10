@@ -9,7 +9,7 @@ Add -> addition, you have to put only two numbers for example you do:
   1 -> second input
   2 -> output
 
-same goes for Subs(substraction),Mult(multiplication) and Divi(division and not the html thing), YOU NEED TO PUT ONLY TWO NUMBERS
+same goes for Subs(substraction),Mult(multiplication) and Divi(division), YOU NEED TO PUT ONLY TWO NUMBERS
 
 for sin cos tan...:
   you type the name of the function and CHOOSE ONLY ONE NUMBER
@@ -29,4 +29,16 @@ loop+:
 
 cls:
   clears the screen
+
+pointer* :
+  this is just a test for the const char pointer, you can ignore right now
  
+contains easter eggs, might be removed for copyright issues.
+
+FOS version: v.prototype build 0.a0 english
+  next version: v.prototype build 0.a1 english,french,turkish,italian
+  new features that will come: multiple languages will be added ⇑, but will be different versions,new easter eggs, exiting command soon to be added.
+
+  how to quit: click "x" on the window bc its a window (duh)
+  
+  
