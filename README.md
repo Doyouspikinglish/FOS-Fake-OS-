@@ -41,4 +41,5 @@ FOS version: v.prototype build 0.a0 english
 
   how to quit: click "x" on the window bc its a window (duh)
   
-  
+  WARINING: easter eggs has been removed, they will comeback in the 0.3a version
+some feautures MIGHT be removed because of forgetfulness
