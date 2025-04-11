@@ -159,7 +159,7 @@ int main() {
 				break;
 
 			case 20:
-				std::cout << "Version: alpha 0.a1" << "\n";
+				std::cout << "Version: alpha 0.a2" << "\n";
 				break;
 
 			case 21:
@@ -171,7 +171,7 @@ int main() {
 				break;
 
 			case 23:
-				std::cout << "Owned by Xpak, version: alpha 0.a1\n"; //i forgor 
+				std::cout << "Owned by Xpak, version: alpha 0.a2\n"; //i forgor 
 				break;
 		}	
 	}
