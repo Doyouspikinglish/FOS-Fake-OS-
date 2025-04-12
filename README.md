@@ -20,8 +20,18 @@ for sin cos tan...:
 
 loop++:
   loop++ is to make a loop of a string from up to down
+how to use:
+  hello
+  2
+  hello 
+  hello 
+
+  
 loop+:
  loop+ is a loop of a string from left to right
+ hello
+ 2
+ hello hello
 
  cr.file:
    mocks making a file, it cant be saved or opened. the file system is in the prototyping stage
@@ -30,10 +40,9 @@ loop+:
 cls:
   clears the screen
 
-pointer* :
-  this is just a test for the const char pointer, you can ignore right now
+
  
-contains easter eggs, might be removed for copyright issues.
+easter eggs are removed
 
 FOS version: v.prototype build 0.a0 english
   next version: v.prototype build 0.a1 english,french,turkish,italian
@@ -42,4 +51,4 @@ FOS version: v.prototype build 0.a0 english
   how to quit: click "x" on the window bc its a window (duh)
   
   WARINING: easter eggs has been removed, they will comeback in the 0.3a version
-some feautures MIGHT be removed because of forgetfulness
+some feautures MIGHT be removed because of forgetfullness
