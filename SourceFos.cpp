@@ -105,7 +105,7 @@ int main() {
 				std::cin >> loop_test_num1;
 				
 				for (int io = 0; io < loop_test_num1; io++) {
-					std::cout << looptest_1;
+					std::cout << looptest_1 << " ";
 				}
 				break;
 			case 9:
@@ -113,7 +113,7 @@ int main() {
 				std::cin >> looptest_num2;
 
 				for (int io_2 = 0; io_2 < looptest_num2; io_2++) {
-					std::cout << looptest_2 << "\n";
+					std::cout << looptest_2 << " " << "\n";
 				}
 				break;
 			case 10:
