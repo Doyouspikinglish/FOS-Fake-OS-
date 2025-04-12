@@ -13,7 +13,7 @@ int main() {
 	string OSinput;
 
 	while (true) {
-		std::cout << "->";
+		std::cout << "->" ;
 		std::cin >> OSinput;
 
 
@@ -41,6 +41,7 @@ int main() {
 		else if (OSinput == "company") command_int = 21; //dn
 		else if (OSinput == "Update") command_int = 22; //gbr (going to be removed)
 		else if (OSinput == "Info") command_int = 23;//dn
+		else if (OSinput == "shw-mem") command_int = 24; //n
 
 		string a;
 		double ab, ba;
@@ -49,7 +50,9 @@ int main() {
 		double ed, de;
 		string File_usage;
 		string looptest_1;
+		int loop_test_num1;
 		string looptest_2;
+		int looptest_num2;
 		double Sina;
 		double Cosa;
 		double Tan_A;
@@ -59,6 +62,7 @@ int main() {
 		double Sinh;
 		double Cosh;
 		double Tanh;
+		string string_user_memory_adress;
 
 		switch (command_int) {
 			case 1: 
@@ -95,18 +99,21 @@ int main() {
 					if (File_usage == "Quit.quit/command") {
 						break;
 					}
-					break;
 				}
 			case 8:
 				std::cin >> looptest_1;
-				for (int io = 0; io > 10; io++) {
+				std::cin >> loop_test_num1;
+				
+				for (int io = 0; io < loop_test_num1; io++) {
 					std::cout << looptest_1;
 				}
 				break;
 			case 9:
 				std::cin >> looptest_2;
-				for (int io_2 = 0; io_2 > 10; io_2++) {
-					std::cout << looptest_2 << "n";
+				std::cin >> looptest_num2;
+
+				for (int io_2 = 0; io_2 < looptest_num2; io_2++) {
+					std::cout << looptest_2 << "\n";
 				}
 				break;
 			case 10:
@@ -159,7 +166,7 @@ int main() {
 				break;
 
 			case 20:
-				std::cout << "Version: alpha 0.a2" << "\n";
+				std::cout << "Version: alpha 0.a1" << "\n";
 				break;
 
 			case 21:
@@ -171,8 +178,13 @@ int main() {
 				break;
 
 			case 23:
-				std::cout << "Owned by Xpak, version: alpha 0.a2\n"; //i forgor 
+				std::cout << "Owned by Xpak, version: alpha 0.a1\n"; //i forgor 
 				break;
+
+			case 24:
+				std::cin >> string_user_memory_adress;
+				std::cout << "mem adress: " << &string_user_memory_adress << "\n";
+
 		}	
 	}
 }
