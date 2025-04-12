@@ -44,8 +44,8 @@ cls:
  
 easter eggs are removed
 
-FOS version: v.prototype build 0.a0 english
-  next version: v.prototype build 0.a1 english,french,turkish,italian
+FOS version: v.prototype build 0.a1 english
+  next version: v.prototype build 0.a3 english,french,turkish,italian
   new features that will come: multiple languages will be added ⇑, but will be different versions,new easter eggs, exiting command soon to be added.
 
   how to quit: click "x" on the window bc its a window (duh)
