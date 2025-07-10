@@ -1,4 +1,4 @@
-#BIG UPDATE
+# BIG UPDATE
 
 UPDATE INCOMING: The update will deliver substantial improvements focused on performance, parsing reliability, and command extensibility. The design approach remains grounded in clean syntax, modular architecture, and predictable behavior across platforms.
 
